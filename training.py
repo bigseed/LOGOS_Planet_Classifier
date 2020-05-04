@@ -179,7 +179,8 @@ loss_area.set_title('Loss Value per EPOCH')
 
 accuracy_area = fig.add_subplot(122)
 accuracy_area.plot(range(EPOCHS), accuracy_per_epoch)
-accuracy_area.set_xlabel('Accuracy(%)')
+accuracy_area.set_xlabel('EPOCHS')
+accuracy_area.set_ylabel('Accuracy(%)')
 accuracy_area.set_title('Accuracy per EPOCH')
 
 plt.show()
